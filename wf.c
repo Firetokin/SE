@@ -17,9 +17,9 @@ void countTotal(FILE*fp){
 			num[ret - 'a'] ++;
 			total ++;
 		}
-		else if(ret == EOF){
-			break;
-		}
+	//	else if(ret == EOF){
+	//		break;
+	//	}
 	}
 }
 
